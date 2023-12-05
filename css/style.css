@@ -744,7 +744,7 @@ h6 {
 	justify-content: center;
 	background-color: #fff;
 	padding: 50px 15px;
-	transition: all 0.5s ease 0s;
+	transition: transform 0.5s ease 0s;
 }
 .item-getintouch > *:not(:last-child) {
 	margin: 0px 0px 15px 0px;
@@ -791,7 +791,7 @@ h6 {
 	}
 	.item-getintouch:hover {
 		background-color: #252b42;
-		padding: 80px 15px;
+		transform: scaleY(1.1);
 		color: #fff;
 	}
 	.item-getintouch:hover > .item-getintouch__button {
